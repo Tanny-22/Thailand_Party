@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7af64380a955ec54184254cf6dc98b29, type: 3}
+  m_Name: CharacterRegistry
+  m_EditorClassIdentifier: Assembly-CSharp::PartyGame.Players.CharacterRegistry
+  entries:
+  - {fileID: 11400000, guid: fb5f631244be8bb469d6ef8fe2ea84b4, type: 2}
+  - {fileID: 11400000, guid: 1f008994ea423664e9206afc7ea764da, type: 2}
+  - {fileID: 11400000, guid: aa7bff9ef4278984f8f635787d07b7d3, type: 2}

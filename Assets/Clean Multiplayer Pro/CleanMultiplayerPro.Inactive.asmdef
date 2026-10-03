@@ -1,0 +1,16 @@
+{
+  "name": "CleanMultiplayerPro.Inactive",
+  "rootNamespace": "AvocadoShark",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "CMPSETUP_COMPLETE"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

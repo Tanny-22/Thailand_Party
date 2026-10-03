@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fa3d8997a24136984ca6e2c99902bc, type: 3}
+  m_Name: PartyGameInput
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionAsset
+  m_ActionMaps:
+  - m_Name: UI
+    m_Id: f9d2f5d4-4299-476f-8bfc-5ca360f33241
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Pause
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: 3338a349-d96e-4e06-b417-8ec22e65c52b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    - m_Name: Submit
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: d60e1d98-52d6-42ab-b822-911a28390e9a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    - m_Name: Cancel
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: 975da3b9-0f75-4880-84f5-63114bf73ad5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Bindings:
+    - m_Name: 
+      m_Id: b4358184-871f-4101-83ee-4b8600277891
+      m_Path: <Keyboard>/escape
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Pause
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 4e70f645-8f34-45ca-96b3-e546f7589096
+      m_Path: <Keyboard>/enter
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Submit
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 05809469-51dc-4d11-aaea-88324ef18616
+      m_Path: <Keyboard>/escape
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Cancel
+      m_Flags: 0
+  - m_Name: Gameplay
+    m_Id: 73266fae-b228-4bd3-8307-4917bb59732d
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 18360d8d-839f-4efc-b6a7-b93c5ef894ac
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    - m_Name: Action
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: 4220777c-60f8-4d4f-ae74-4527b4b31bbe
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Bindings:
+    - m_Name: 2DVector
+      m_Id: e3201b7f-55bf-45b8-b117-34237e3a248e
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: Up
+      m_Id: 6437019d-e3b8-483d-8335-c3a75e66ff28
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: Down
+      m_Id: 4d0df68e-fe07-4803-ae6f-41c3cc6e31aa
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: Left
+      m_Id: ac4a61c1-5634-49df-a560-73d8f0a6804c
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: Right
+      m_Id: 75d74c59-1d47-49af-b088-483e0722a863
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: 
+      m_Id: c30b8c5b-6b7c-4612-a418-25a545b5eab8
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Action
+      m_Flags: 0
+  m_ControlSchemes: []
+  m_IsProjectWide: 0

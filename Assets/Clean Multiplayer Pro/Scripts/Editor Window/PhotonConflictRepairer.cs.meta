@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 030eb0a5d55a04eb9a24a66fbb4cd37b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 264984
+  packageName: Clean Multiplayer Pro
+  packageVersion: 2.1.0
+  assetPath: Assets/Clean Multiplayer Pro/Scripts/Editor Window/PhotonConflictRepairer.cs
+  uploadId: 962614
